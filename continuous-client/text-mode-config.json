@@ -1,0 +1,6 @@
+{
+  "maxBufferedEvents": 32,
+  "maxBufferedBytes": 262144,
+  "reorderTimeoutMs": 2000,
+  "recoveryTimeoutMs": 5000
+}

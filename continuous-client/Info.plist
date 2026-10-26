@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Meeting Copilot</string>
+	<key>CFBundleExecutable</key>
+	<string>MeetingCopilot</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.github.ziqiangyzq-cyber.meeting-copilot</string>
+	<key>CFBundleIconFile</key>
+	<string>MeetingCopilot</string>
+	<key>CFBundleName</key>
+	<string>Meeting Copilot</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.2</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.2</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.2</string>
+	<key>NSAudioCaptureUsageDescription</key>
+	<string>仅在选择电脑声音并点击开始后采集其他应用的声音；网络模式需先允许发送音频，不保存屏幕画面。</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>仅在您启用麦克风并点击开始后，为当前会话采集语音。</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>兼容旧版系统音频采集授权；当前电脑声音使用 Core Audio 系统录音，不读取、保存或上传屏幕画面。</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>仅在您点击开始后，使用本机离线语音识别转写当前会话。</string>
+</dict>
+</plist>

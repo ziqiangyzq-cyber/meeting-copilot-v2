@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Swift / build outputs
+.build/
+.build-*/
+.cache/
+.module-cache/
+DerivedData/
+build/
+*.xcuserstate
+
+# Runtime evidence and local test data
+evidence/
+*.log
+*.backup
+*.db
+*.db-shm
+*.db-wal
+
+# Local models and runtime environments
+运行依赖/
+*.safetensors
+*.gguf
+*.mlmodel
+*.mlpackage
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+secrets/
+
+# Archives and app bundles
+*.zip
+*.app/
+*.dmg
+dist/
+__pycache__/
