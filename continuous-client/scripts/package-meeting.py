@@ -4,7 +4,7 @@ import argparse, ctypes, datetime, hashlib, json, os, plistlib, shutil, subproce
 from pathlib import Path
 parser = argparse.ArgumentParser()
 parser.add_argument('--binary', required=True)
-parser.add_argument('--app-name', default='Meeting Copilot 2.app')
+parser.add_argument('--app-name', default='Meeting Copilot.app')
 parser.add_argument('--zip-name', default='Meeting-Copilot-2.0.2.zip')
 args = parser.parse_args()
 repo = Path(__file__).resolve().parents[2]
@@ -76,7 +76,7 @@ with tempfile.TemporaryDirectory(prefix='meeting-copilot-package-') as temp:
     # Only publish already signed and ZIP-verified bytes.
     dist.mkdir(exist_ok=True)
     if app.exists():
-        backup = dist/'history'/('Meeting Copilot 2-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'.app')
+        backup = dist/'history'/('Meeting Copilot-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'.app')
         backup.parent.mkdir(parents=True, exist_ok=True); app.rename(backup)
     shutil.copytree(staging, app, copy_function=shutil.copyfile)
     os.utime(app,None)

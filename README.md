@@ -80,7 +80,7 @@ POST <baseURL>/chat/completions
 ### 使用发布包
 
 1. 下载 `Meeting-Copilot-2.0.2.zip` 并解压。
-2. 将 `Meeting Copilot 2.app` 放入“应用程序”或你自己的工作目录。
+2. 将 `Meeting Copilot.app` 放入“应用程序”或你自己的工作目录。
 3. 首次打开时按提示授予麦克风或“仅系统录音”权限。
 4. 打开“设置”，选择转写、翻译和纪要服务；点击“测试配置”，通过后保存。
 
